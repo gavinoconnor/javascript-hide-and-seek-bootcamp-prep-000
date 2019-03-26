@@ -28,13 +28,8 @@ function increaseRankBy(n) {
 //   `querySelector()` and `querySelectorAll()` on them. This is challenging to
 //   implement correctly, but not beyond your ability!)
 function deepestChild() {
-  let child = []
-  const node = document
-  .getElementById('grand-node')
-  .querySelectorAll('div')
 
-  for (let i = 0; i < node.length; i++) {
-    child = node.querySelector('div')
-  }
-  return child
+  let node = document.getElementById('grand-node')
+  let next = node.children[0]
+
 }
