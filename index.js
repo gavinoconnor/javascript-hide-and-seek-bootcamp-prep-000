@@ -1,6 +1,6 @@
 // - Define a function `getFirstSelector(selector)`, which accepts a selector and
 //   returns the first element that matches.
-var getFirstSelector(selector) = function(element) {
+var getFirstSelector = function(element) {
   document.querySelector(element)
 }
 
