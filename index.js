@@ -1,7 +1,7 @@
 // - Define a function `getFirstSelector(selector)`, which accepts a selector and
 //   returns the first element that matches.
-var getFirstSelector = function(element) {
-  document.querySelector(element)
+function getFirstSelector(selector) {
+  document.querySelector(selector)
 }
 
 // - Define a function `nestedTarget()` that pulls a `.target` out of `#nested`
