@@ -9,6 +9,9 @@ function getFirstSelector(selector) {
 //   right? :) ). (Note that in `index.html` `#nested` and `.target` just
 //   _happen_ to be `div`s. This method should work with arbitrary elements.)
 //
+function nestedTarget() {
+  document.querySelectorAll('#nested' '.target')
+}
 //
 // - Define a function `increaseRankBy(n)` that increases the ranks in all of the
 //   `.ranked-list`s by `n`. (You might need to make use of [`parseInt()`][parseint]
