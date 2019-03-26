@@ -11,7 +11,7 @@ function getFirstSelector(selector) {
 //
 function nestedTarget() {
   var container = document.querySelector("#nested")
-  var matches = container.querySelectorAll(".target")
+  var matches = container.querySelector(".target")
   return matches
 }
 //
