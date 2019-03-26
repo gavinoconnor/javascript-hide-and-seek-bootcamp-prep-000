@@ -10,8 +10,8 @@ function getFirstSelector(selector) {
 //   _happen_ to be `div`s. This method should work with arbitrary elements.)
 //
 function nestedTarget() {
-  var container = document.querySelectorAll('#nested')
-  var matches = container.querySelectorAll('.target')
+  var container = document.querySelector("#nested")
+  var matches = container.querySelectorAll(".target")
 }
 //
 // - Define a function `increaseRankBy(n)` that increases the ranks in all of the
