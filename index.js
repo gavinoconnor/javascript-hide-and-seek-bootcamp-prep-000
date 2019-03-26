@@ -12,6 +12,7 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   var container = document.querySelector("#nested")
   var matches = container.querySelectorAll(".target")
+  return matches
 }
 //
 // - Define a function `increaseRankBy(n)` that increases the ranks in all of the
