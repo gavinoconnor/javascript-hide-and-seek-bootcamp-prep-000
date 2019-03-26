@@ -18,7 +18,7 @@ function increaseRankBy(n) {
   .querySelectorAll('ul.ranked-list')
 
   for (let i = 0; i < rankedLists.length; i++) {
-    rankedLists[i].innerHTML = (i + n).toString()
+    rankedLists[i].innerHTML = parseInt(rankedLists[i]) + n
   }
 }
 // - Define a function `deepestChild()` that pulls out the most deeply nested child
