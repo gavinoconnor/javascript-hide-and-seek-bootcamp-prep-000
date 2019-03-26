@@ -32,7 +32,7 @@ function deepestChild() {
   .getElementById('grand-node')
   .querySelectorAll('div')
 
-  const child
+  let child = []
   for (i = 0; i < node.length; i++) {
     child = node.querySelector('div')
   }
